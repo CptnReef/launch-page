@@ -1,0 +1,47 @@
+body {
+  color:cyan;
+}
+
+.navbar {
+  padding 1rem;
+}
+
+.navbar {
+  padding 1rem;
+  background-color: lightgray;
+}
+
+.footer {
+  padding 1rem;
+  background-color: grey;
+}
+
+.btn-primary:hover {
+  background-color: blue;
+  color: white;
+}
+
+.hero-background-img {
+  background-image: url("grianghraf-KBzi5TMsxmU-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("daniel-cheung-cPF2nlWcMY4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top:1000px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.45; /* Tone the image down further by giving it transparency */
+}
